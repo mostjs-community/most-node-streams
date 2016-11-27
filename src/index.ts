@@ -21,7 +21,7 @@ export function fromStream(
 
 export function fromReadable(
   nodeStream: NodeJS.ReadableStream,
-  dataEventName: string,
+  dataEventName = 'data',
 ): Stream<Buffer> {
   return fromStream(nodeStream, { dataEventName, endEventName: 'end' });
 }
