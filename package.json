@@ -1,6 +1,6 @@
 {
   "name": "most-node-streams",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert Node.js streams to Most.js Streams",
   "main": "lib/commonjs",
   "scripts": {
